@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+#one{
+    background-color: #0e1d34;   
+    background-image: url(../images/contents/hero-bg.png);
+    background-size: cover;
+    padding-top: 20px;
+}
+#navthree{
+    display: flex;
+    justify-content: space-between;
+}
+#logis{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navtwo>li>a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+#touch{
+    margin-left: 400px;
+}
+#two{
+    font-size: 35px;
+    font-weight:700;
+}
+#about:hover{
+    color: white;
+}
+#service:hover{
+    color: white;
+}
+#dropdown:hover{
+    color: white;
+}
+#contact:hover{
+    color: white;
+}
+#pricingb:hover{
+    color: white;
+}
+#five{
+    position: relative;
+}
+#six{
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    left: -20px;
+    background-color: white;
+    display: none;
+    border-radius: 10px;
+    z-index: 1;
+}
+#six>li{
+    list-style: none;
+    margin-top: 10px;
+    padding-left:-10px;
+}
+#six>li>a{
+    text-decoration: none;
+    color: black;
+}
+#five:hover #six{
+    display: block;
+}
+#seven{
+    position: relative;
+}
+#eight{
+    position: absolute;
+    width: 180px;
+    height: 170px;
+    left: 145px;
+    background-color: white;
+    display: none;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+#eight>li{
+    list-style: none;
+    margin-top: 10px;
+    padding-left:-10px;
+}
+#eight>li>a{
+    text-decoration: none;
+    color: black;
+}
+#seven:hover #eight{
+    display: block;
+}
+#three{
+    color: white;
+    font-size: 48px;
+    font-weight:700;
+}
+#four{
+    color: rgb(207, 200, 200);
+}
+#yourself{
+    border: none;
+    padding-left: 50px;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 20px;
+}
+#she{
+    background-color: white;
+    height: 80px;
+    border-radius: 20px;
+}
+.number{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.numberb{
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+#nine{
+    height: 550px;
+    width: 550px;
+    margin-left: 100px;
+}
+#ten{
+    font-size: 40px;
+}
+.eleven{
+    text-decoration: none;
+    color: black;
+}
+.twelve{
+    font-size: 40px;
+}
+.new{
+    color: #19335c;
+    font-size: 18px;
+    font-weight: 700;
+}
+#no{
+    color: #001f8d;
+}
+.why{
+    position: absolute;
+    top: 208vh;
+    color: rgba(14, 29, 52, 0.06);
+    text-align: center;
+    z-index: 0.5;
+    font-weight: 700;
+    font-size: 56px;
+    left: 550px;
+}
+.our{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #001f8d;
+}
+.tow:hover .new{
+    color: #001f8d;
+}
+.title{
+    color: #001f8d;
+    font-weight: 700;
+    font-size: 20px;
+}
+#cardone:hover .title{
+    color: #4461ca;   
+}
+#cardtwo:hover .title{
+    color: #4461ca;   
+}
+#cardthree:hover .title{
+    color: #4461ca;   
+}
+#cardfour:hover .title{
+    color: #4461ca;   
+}
+#cardfive:hover .title{
+    color: #4461ca;   
+}
+#cardsix:hover .title{
+    color: #4461ca;   
+}
+#cardone{
+    overflow: hidden;
+}
+#cardtwo{
+    overflow: hidden;
+}
+#cardthree{
+    overflow: hidden;
+}
+#cardfour{
+    overflow: hidden;
+}
+#cardfive{
+    overflow: hidden;
+}
+#cardsix{
+    overflow: hidden;
+}
+#cardone>img{
+    transition: 0.8s;
+}
+#cardone>img:hover{
+    scale: 1.1;
+}
+#cardtwo>img{
+    transition: 0.8s;
+}
+#cardtwo>img:hover{
+    scale: 1.1;
+}
+#cardthree>img{
+    transition: 0.8s;
+}
+#cardthree>img:hover{
+    scale: 1.1;
+}
+#cardfour>img{
+    transition: 0.8s;
+}
+#cardfour>img:hover{
+    scale: 1.1;
+}
+#cardfive>img{
+    transition: 0.8s;
+}
+#cardfive>img:hover{
+    scale: 1.1;
+}
+#cardsix>img{
+    transition: 0.8s;
+}
+#cardsix>img:hover{
+    scale: 1.1;
+}
+#fixed{
+    background-image: url(../images/contents/cta-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    height: 300px;
+    z-index: -1;
+}
+#blue{
+    background-color: rgb(60, 60, 94,0.8);
+    height: 300px;
+    width: 100%;
+}
+#action
+{
+    border: 1px solid white;
+    transition: 0.5s;
+    font-weight: 600;
+    font-size: 20px;
+}
+#action:hover{
+    border: none;
+}
+#call{
+    font-weight: 700;
+}
+#doller{
+    font-size: 35px;
+    color: #4461ca;   
+}
+#number{
+    font-size: 20px;
+    color: silver;
+}
+.free>li{
+    list-style: none;
+}
+#pone{
+    box-shadow: 0px 0px 0.5px 0px black;
+    height: auto;
+}
+#ptwo{
+    box-shadow: 0px 0px 0.5px 0px black;
+    height: 420px;
+    border-top: 5px solid blue;
+}
+#pthree{
+    box-shadow: 0px 0px 0.5px 0px black;
+    height: 420px;
+}
+#volup{
+    color: #001f8d;
+    font-weight: 600;
+}
+#corp{
+    color: #001f8d;
+    font-weight: 600;
+}
+#sunt{
+    color: #001f8d;
+    font-weight: 600;
+}
+#quas{
+    color: #001f8d;
+    font-weight: 600;
+}
+#ipsem{
+    font-style: italic;
+}
+#sit{
+    font-style: italic;
+}
+#amet{
+    font-style: italic;
+}
+#pricing{
+    color: #001f8d;
+    font-weight: 900;
+    font-size: 30px;
+}
+#testimonial{
+    background-image: url(../images/contents/testimonials-bg.jpg);
+    height: 500px;
+    background-position: center;
+}
+#blur{
+    background-color: rgb(60, 60, 94,0.8);
+    height: 500px;
+}
+.name{
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.position{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.star{
+    color: rgb(231, 231, 18);
+}
+.text{
+    color: white;
+    font-style: italic;
+}
+#indicators>button{
+    width: 12px;
+    height: 12px;
+    border-radius:100%;
+    margin-top: 100px;
+}
+#frequently{
+    font-weight: 900;
+    color: #001f8d;
+    font-size: 30px;
+}
+#line{
+    color: #4461ca;
+}
+#linea{
+    color: #4461ca; 
+}
+#lineb{
+    color: #4461ca; 
+}
+#linec{
+    color: #4461ca; 
+}
+#lined{
+    color: #4461ca; 
+}
+#yesa{
+    background: rgba(14, 29, 52, 0.03);
+    color: black;
+}
+#yesa:focus{
+    color: white;
+}
+#yesb:focus{
+    color: white;
+}
+#yesc:focus{
+    color: white;
+}
+#yesd:focus{
+    color: white;
+}
+#yese:focus{
+    color: white;
+}
+#yesb{
+    background: rgba(14, 29, 52, 0.03);
+    color: black;
+}
+#yesc{
+    background: rgba(14, 29, 52, 0.03);
+    color: black;
+}
+#yesd{
+    background: rgba(14, 29, 52, 0.03);
+    color: black;
+}
+#yese{
+    background: rgba(14, 29, 52, 0.03);
+    color: black;
+}
+#dropdowna{
+    background: rgba(14, 29, 52, 0.03);
+}
+
+#dropdownb{
+    background: rgba(14, 29, 52, 0.03);
+}
+#dropdownc{
+    background: rgba(14, 29, 52, 0.03);
+}
+#dropdownd{
+    background: rgba(14, 29, 52, 0.03);
+}
+#dropdowne{
+    background: rgba(14, 29, 52, 0.03);
+}
+#footerbackground{
+    background-color: #0e1d34;   
+}
+.kitea{
+    font-size: 30px;
+    font-weight:700;
+}
+.kitea>a{
+    text-decoration: none;
+    color: white;
+}
+.footer>li{
+    list-style: none;
+}
+#lion{
+    display: flex;
+}
+#lion>li{
+    list-style: none;
+}
+.toy>a{
+    font-size: 18px;
+    color: white;
+}
+#twitter{
+    border-radius: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    opacity: 0.5;
+    color: white;
+}
+#facebook{
+    border-radius: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    opacity: 0.5;
+    color: white;
+}
+#instagram{
+    border-radius: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    opacity: 0.5;
+    color: white;
+}
+#linkedin{
+    border-radius: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    opacity: 0.5;
+    color: white;
+}
+#twitter:hover{
+    opacity: 1;
+}
+#facebook:hover{
+    opacity: 1;
+}
+#instagram:hover{
+    opacity: 1;
+}
+#linkedin:hover{
+    opacity: 1;
+}
+.now>li{
+    list-style: none;  
+}
+.now>li>a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    font-size: 14px;  
+}
+.use{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.nowb>li{
+    list-style: none;  
+}
+.nowb>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;  
+}
+.opac{
+    opacity: 0.8;
+}
+.opac:hover{
+    opacity:1;
+}
+@media screen and (max-width:768px){
+    #pricingc{
+        display: none;
+    }
+    #why{
+        display: none;
+    }
+    #expandnav{
+        display: none;
+    }
+    #navthree{
+        display: none;
+    }
+}
+@media screen and (max-width:992px){
+    #navthree{
+        display: none;
+    }
+}   
+@media screen and (max-width:395px){
+    #action{
+        display: none;
+    }
+}   
+@media screen and (max-width:285px){
+    #calltext{
+        display: none;
+    }
+}   
